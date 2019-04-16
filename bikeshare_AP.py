@@ -28,7 +28,7 @@ def get_valid_input(valid_values, prompt):
         if s.title() in valid_values or s.lower() in valid_values:
             break
         else:
-            print('Invalid input, please try again from the follwoing: ', valid_values)
+            print('Invalid input, please try again from the following: ', valid_values)
     return s.title()
 
 def get_filters():
@@ -242,8 +242,13 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        raw_data(df)    
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        raw_data(df)
+        while True:    
+            restart = input('\nWould you like to restart? Enter yes or no.\n').lower()
+            if restart == 'yes' or restart == 'no':
+                break
+            else:
+                print('Please enter yes or no.')
         if restart.lower() != 'yes':
             break
 
