@@ -22,4 +22,5 @@ $ python bikeshare_AP.py
 This project requires `NumPy` and `Pandas` modules.
 
 ### Credits
-This project uses data provided by [Motivate](https://www.motivateco.com/), a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. You will compare the system usage between three large cities: Chicago, New York City, and Washington, DC.
+* This project uses data provided by [Motivate](https://www.motivateco.com/), a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. You will compare the system usage between three large cities: Chicago, New York City, and Washington, DC.
+* [Udacity](https://www.udacity.com/) Nanodegree materials
