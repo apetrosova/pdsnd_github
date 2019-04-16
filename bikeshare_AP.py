@@ -241,8 +241,13 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        raw_data(df)    
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        raw_data(df)
+        while True:    
+            restart = input('\nWould you like to restart? Enter yes or no.\n').lower()
+            if restart == 'yes' or restart == 'no':
+                break
+            else:
+                print('Please enter yes or no.')
         if restart.lower() != 'yes':
             break
 
