@@ -2,16 +2,16 @@
 April 15, 2019.
 
 ### Project Title
-Bikeshare
+BikeShare
 
 ### Description
 To explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. 
 
 ### Files used
-* bikeshare_AP.py
-* washington.csv
-* new_york_city.csv
-* chicago.csv
+* `bikeshare_AP.py` - main project file
+* `washington.csv` - system usage data for Washington (not included)
+* `new_york_city.csv` - system usage data for New York (not included)
+* `chicago.csv` - system usage data for Chicago (not included)
 
 
 ### Credits
