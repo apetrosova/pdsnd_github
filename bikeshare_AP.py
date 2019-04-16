@@ -227,6 +227,7 @@ def raw_data(df):
     rows_count = df.shape[0]
     show_data = input('Would you like to see raw data (total = {})? Enter yes or no.\n'.format(rows_count)).lower()
     while current_position < rows_count and show_data == 'yes':
+        # use temporary Pandas context formating to prevent colapsing middle columns on the display
         with pd.option_context('display.max_rows', None, 'display.max_columns', None):
             print(df[current_position:current_position+display_size:])
         current_position += display_size    
