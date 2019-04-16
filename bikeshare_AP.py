@@ -28,7 +28,7 @@ def get_valid_input(valid_values, prompt):
         if s.title() in valid_values or s.lower() in valid_values:
             break
         else:
-            print('Invalid input, please try again from the follwoing: ', valid_values)
+            print('Invalid input, please try again from the following: ', valid_values)
     return s.title()
 
 def get_filters():
